@@ -1,0 +1,629 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 2%;
+    align-items: center;
+    background-image: url(./Images/netflixbg.jpeg);
+    background-repeat: no-repeats;
+    
+}
+hr{
+    background-color: rgb(84, 84, 84);
+    height: 0.3rem;
+    margin: 0;
+}
+#left h1{
+        width: 9.25rem;
+        height: 2.5rem;
+        color: rgb(229,9,20);
+        fill: currentColor;
+}
+#right ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+#right a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+
+}
+#A:hover{
+    display: relative;
+    color: white;
+    
+}
+button{
+    color: white;
+    background-color: red;
+    border:none;
+}
+#bg{
+    background-image: url(./Images/netflixbg.jpeg);
+
+}
+/* ==================================================== */
+#cont1 a{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none ;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+#cont1 h1{
+    margin-top: 10%;
+    font-size: 300%;
+    font-weight: 30px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 0;
+}
+#cont1 h3{
+    font-weight: 25px;
+    font-size: 160%;
+   text-decoration: none;
+   text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#cont1 h4{
+    font-weight: 25px;
+    font-size: 120%;
+   text-decoration: none;
+   text-align: center;
+    margin: 0;
+    padding: 0;
+   
+
+}
+#right #cont #A #B{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+#email1{
+    align-content: center;
+    padding: 20px;
+    margin-left: 30%;
+    width: 25%;
+    border-radius: 5px;
+    background-color: black;
+    background-position: 0%;
+}
+#button{
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 14%;
+    background-color: red;
+    background-position: 0%;
+}
+/* ================================================= */
+#tv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 0.65rem;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#tv div{
+    width: 49%;
+}
+#tv #lefte h1{
+    font-size: 3rem;
+}
+#tv #lefte p{
+    font-size: 1.6rem;
+}
+#tv #righte img{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+#tv #righte video{
+    position: absolute;
+    top: 20.5%;
+    left:13%;
+    width: 73.5%;
+    z-index: 1;
+}
+#tv #righte{
+    position: relative;
+}
+/* =============================================== */
+#milly{
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.65rem;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#milly div {
+    width: 45%;
+}
+#milly div h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+#milly div p{
+    padding: 0;
+    font-size: 1.5rem;
+}
+/* ================================================ */
+#watch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 0.65rem;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#watch div{
+    width: 49%;
+}
+#watch #leftw h1{
+    font-size: 3rem;
+}
+#watch #leftw p{
+    font-size: 1.6rem;
+}
+#watch #rightw img{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+#watch #rightw video{
+    position: absolute;
+    top: 5.5%;
+    left:16%;
+    width: 66.5%;
+    z-index: 1;
+}
+#watch #rightw{
+    position: relative;
+}
+/* ================================================ */
+#kids {
+    margin-top: 1rem;
+    padding: 4.8rem;
+    background-color: black;
+    color: white;
+    display: inline-flex;
+}
+#kids img{
+    font-size: 1rem;
+}
+#kids #children{
+    text-align: left;
+}
+#kids #children h1{
+    font-size: 2.9rem;
+}
+#kids #children p{
+    font-size: 1.5rem;
+}
+
+/* ----------------------FAQ-------------------------- */
+#que{
+    width: 90%;
+    margin: auto;
+}
+#que h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+#que #faq{
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+#que #faq ul{
+    list-style-type: none;
+    padding: 0;
+}
+#que #faq ul li{
+    margin: 0.5rem;
+
+}
+#que #faq ul li .span{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color:rgba(48, 48, 48, 0.616) ;
+    padding: 1rem;
+}
+#que #faq ul li #a1{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q1:hover #a1{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a2{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q2:hover #a2{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a3{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q3:hover #a3{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a4{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q4:hover #a4{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a5{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q5:hover #a5{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a6{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q6:hover #a6{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+/*---------------------Email-------------------------------*/
+
+#email{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+
+}
+#email p{
+    font-size: 1.5rem;
+    padding-top: 3.5rem;
+}
+#email input{
+    background-color: rgb(27, 26, 26);
+    border: 1px solid rgb(155, 153, 153);
+    width: 30%;
+    height: 3.5rem;
+    border-radius: 4px;   
+}
+#email button{
+    background-color: rgb(233, 35, 35);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    width: 17.5%;
+    height: 3.6rem;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 0.4rem;
+}
+#email input::placeholder{
+    color: rgb(219, 213, 213);
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+/* ================================================ */
+footer{
+    background-color: black;
+    color: rgb(180, 169, 169);
+    width: 100%;
+    
+}
+footer #list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer #list ul{
+    padding-top: 0rem;
+    text-decoration: none;
+    list-style-type: none; 
+}
+footer #list a{
+    color: rgb(180, 169, 169);
+}
+footer a{
+    color: rgb(180, 169, 169);
+}
+footer h4{
+    padding-top: 4.5rem;
+    padding-left: 2.5rem;   
+}
+
+#English{
+    width: 10%;
+    color: white;
+    background-color: rgb(32, 31, 31);
+    border-radius: 4px;
+    margin-left: 2.3rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+footer #last{
+    padding-bottom:5.5rem ;
+    padding-top: 2px;
+}
+/* ============================mobile version=========================================== */
+@media(max-width:500px){
+    body{
+        width: 226.5%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5%;
+        align-items: center;
+        background-image: url(./Images/netflixbg.jpeg);
+        background-repeat: no-repeats;
+        
+    }
+    #bg{
+        background-size: 550%;
+        background-position: center;
+    }
+    #left h1{
+        width: auto;
+        height: auto;
+        font-size: 3.5rem;
+    }
+    button{
+        height: 4rem;
+        width: 9rem;
+        font-size: 1.8rem;
+        font-weight: 200;
+        border-radius: 5px;
+    }
+    #right #cont #B{
+        height: 60px;
+        width: 80px;
+    }
+    #cont1 a{
+        margin-top: 60px;  
+    }
+    #cont1 h1{
+        margin-top: 10%;
+        font-size:550%;
+        font-weight: 20px;
+    }
+    #cont1 h3{
+        font-weight: 0px;
+        font-size: 260%;
+    }
+    #cont1 h4{
+        font-weight: 0px;
+        font-size: 320%;
+    }
+    #email1{
+        align-content: center;
+        padding: 20px;
+        margin-left: 10%;
+        width: 70%;
+        height: 4rem;
+        border-radius: 10px;
+        padding-top: 2rem;
+        margin-top: 2rem;
+    }
+    #email1::placeholder{
+        font-size: 50px;
+        padding: 20px 16px 4px;
+    }
+    #button{
+        align-items: center;
+        padding-top: 20px;
+        margin-left: 330px;
+        padding-bottom: 40px;
+        width: 30%;
+        height: 5rem;
+        font-size: 35px;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+    #tv{
+        display: block;
+        align-items: center;
+        width: 100%;
+        margin-top: 4rem;
+    }
+    #tv div{
+        width: 90%;
+        margin: auto;
+    }
+    #tv #lefte h1{
+        font-size: 4rem;
+        text-align: center;
+        width: 100%;
+        margin-top: 0.65rem;    
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #tv #lefte p{
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    #milly{
+        width: 90%;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        margin-top: 0.65rem;
+        margin-bottom: 3rem;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    #milly div {
+        width: 90%;
+        margin: auto;
+
+    }
+    #milly div h1{
+        text-align: center;
+        font-size: 3.7rem;
+    }
+    #milly div p{
+        padding: 0;
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    #milly img{
+        margin-left: 60px;
+    }
+    #watch{
+        display:block;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 2.65rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    
+    }
+    #watch div{
+        width: 90%;
+        margin: auto;
+        margin: 3rem;
+    }
+    #watch #leftw h1{
+        font-size: 4.5rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    #watch #leftw p{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    #kids {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 1rem;
+        padding: 0.8rem;
+        background-color: black;
+        color: white;
+        display: block;
+        padding-bottom: 6rem;
+    }
+    #kids img{
+        font-size: 1rem;
+    }
+    #kids #children{
+        text-align: left;
+    }
+    #kids #children h1{
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    #kids #children p{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #que{
+        width: 100%;
+        margin: auto;
+    }
+    #que #faq{
+        color: white;
+        width: 90%;
+        margin: auto;
+    }
+    
+#email{
+    width: 90%;
+    margin:auto;
+}
+#email p{
+    font-size: 3rem;
+    padding-top: 3.5rem;
+}
+#email input{
+    background-color: rgb(27, 26, 26);
+    width: 90%;
+    height: 5.5rem;
+    border-radius: 5px;   
+    margin-bottom: 2rem;
+}
+#email button{
+    font-size: 2.5rem;
+    width: 40%;
+    height: 5rem;
+    border-radius: 5px;
+}
+#email input::placeholder{
+    padding: 2rem;
+    padding-top: 5px;
+    font-size: 2.5rem;
+}
+
+}

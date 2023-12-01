@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./Images/Alpha_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+}
+#menu_bar{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 1%;
+}
+#right #cont{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+
+}
+#right a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+#left h1{
+    font-size: 1rem;
+    color: white;
+}
+#left h1 span{
+    font-weight: 100;
+}
+#right button{
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 0.8rem;
+    border: 2px solid rgb(208, 207, 207);
+    padding: 5px 10px;
+}
+/* ================================================= */
+#drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 250%;
+}
+#menu a{
+    display: block;
+    color: gray;
+   border-bottom: 1px solid rgb(175, 173, 173);
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+}
+#drop:hover #menu a{
+    display: block;
+}
+#menu a:hover{
+    background-color: rgb(246, 187, 187);
+    color: white;
+}
+/* ======================================================= */
+#down{
+    position: relative;
+}
+#menu1{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    width: 100%;
+    display: none;
+}
+#down:hover #menu1{
+    display: block;
+}
+/* =========================================================== */
+#alpha{
+    text-align: center;
+    margin-top: 7rem;
+    color: white;
+}
+#alpha h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+#alpha p{
+    font-size: 1.2rem;
+   margin-bottom: 2.5rem;
+}
+#alpha button{
+    /* padding: 15px 55px; */
+    width:12%;
+    height:3rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+    color: grey;
+    background-color: white;
+    font-size: 0.8rem;
+}
+#alpha #learn{
+    background-color: transparent;
+    border: 2px solid rgb(184, 180, 180);
+    color: white;
+}
+/* ========================================================== */
+#intro{
+    width: 70%;
+    background-color: white;
+    text-align: center;
+    /* margin: 10rem 12rem; */
+    margin: auto;
+    margin-top: 9rem;
+    border-radius: 5px;
+    color: gray;
+    padding-top: 2rem;
+} 
+#intro img{
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0;
+}
+#intro h1{
+    font-size: 2rem;
+}
+#intro p{
+    font-size: 1.2rem;
+    border-top: 2px solid #e5e5e5;
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+/* =====================Icon===================================== */
+#icon{
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    background-color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+#icon section{
+}
+#icon div{
+    width: 47%;
+    display: inline-block;
+    /* div is block level element that's y it is not coming in same line even when width is 47% 
+    so use display:inline-block */
+    text-align: center;
+    padding-top: 2rem;
+}
+.fa-solid{
+    color: white;
+    border-radius: 100%;
+    font-size: 2.5rem;
+    
+}
+.fa-bolt-lightning{
+    background-color:#e89980;
+    padding: 1.5rem 1.7rem;
+
+}
+.fa-chart-area{
+    background-color: #7fcdb8;
+    padding: 1.5rem 1.6rem;
+}
+.fa-cloud{
+    background-color: #90b0ba;
+    padding: 1.5rem 1.5rem;
+}
+.fa-lock{
+    background-color: #e5cb95;
+    padding: 1.5rem 1.6rem;
+}
+#div1{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    top: 1.5px;
+    left: 3.5px;
+}
+#div4{
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+}
+/* =============================cards======================================= */
+#cards{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#cards div{
+    width: 48%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#cards div img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+#cards div button{
+    height: 3rem;
+    width: 30%;
+    background-color: transparent;
+    color: #8696aa ;
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;
+}
+#cards div h1{
+    font-size: 1.8rem;
+    color: #786d74;
+    font-weight: 100;
+}
+#cards div p{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+#cards img{
+
+}
+
+/* ============================Sign Up======================================= */
+#signUp{
+    background-color: #e89980;
+    text-align: center;
+    padding: 2.5rem;
+    padding-bottom: 2.7 rem;
+}
+#signUp h1{
+    font-size: 30px;
+    color: white;
+}
+#signUp p{
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+#signUp input{
+    height: 50px;
+    width: 270px;
+    border-radius: 5px;
+   border-color: transparent;
+    background-color: #eba893;
+}
+#signUp input::placeholder{
+    color: white;
+}
+#signUp button{
+    height: 50px;
+    width: 130px;
+    background-color: white;
+    color:  #eda788;
+    border-radius: 5px;
+    margin-left: 10px;
+    border-color: white;
+}
+/* ================================================================================== */
+footer{
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color: grey;
+
+}
+#disc{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border-right: 2px solid grey;
+}
+footer #disc p{
+    padding-right: 10px;
+    border-right: 1px solid gray;
+}
+footer #disc a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+#bor{
+    border-right: none;
+}
+
+/* ========================================================================================= */
+/* ===================================Mobile Version =======================================*/
+/* ========================================================================================= */
+
+@media (max-width:500px)
+{
+    body{
+
+        background-size: 190%;
+        background-position-x: center;
+    }
+    #menu_bar{
+        display: inline-block;
+        background-color: grey;
+        padding: 5px 10px;
+        color: white;
+        border-radius: 5px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+    header{
+        display: none;
+    }
+    #alpha{
+        
+        width: 80%;
+        margin: auto;
+        margin-top:0rem;
+    }
+    #alpha h1{
+        font-size: 2rem;
+    }
+    #alpha p{
+        font-size: 1.1rem;
+       font-weight: 600;
+    }
+    #alpha button{
+        /* padding: 15px 55px; */
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    #intro{
+        width: 100%;
+        margin-top: 2.2rem;
+       
+    } 
+    #intro h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    #intro p{
+        font-size: 1.1rem;
+        width: 90%;
+    }
+    br{
+        display: none; 
+        /* we have given break in para we don't want break in mobile version but we want it in desktop version that's y */
+    }
+    #icon{
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 1rem;
+        padding: 0px 0px;
+    }
+    #icon div{
+        width: 90%; 
+        padding-top: 4rem;
+    }
+    #div1{
+        border-right:none;
+        top: 1.5px;
+        left: 3.5px;
+    }
+    #div2{
+        border-bottom: 2px solid #e5e5e5;
+    }
+    #div4{
+        border-left: none;
+    }
+    #cards{
+        width: 100%;
+        margin-top: 1rem;
+        display: block;
+    }
+    #cards div{
+        width: 100%;
+        border-radius: 0px;
+        padding-bottom: 2rem;
+    }
+    #d1{
+        margin-top: 1rem;
+    }
+    #cards div img{
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    
+    }
+    #cards div button{
+        width: 90%;
+    }
+    #cards div h1{
+        font-size: 1.5rem;
+        color: #786d74;
+        font-weight: 100;
+    }
+    #cards div p{
+        font-size: 0.9rem;
+        padding-bottom: 2rem;
+        padding-left: 10px ;
+        padding-right: 10px;
+    }
+    #signUp{
+        padding: 0rem;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+        width: 100%;
+        
+    }
+    #signUp h1{
+        font-size: 25px;
+        font-weight: 100;
+    }
+    #signUp p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    #signUp input{
+        height: 40px;
+        width: 90%;
+       margin-bottom: 1rem;
+    }
+    #signUp input::placeholder{
+        padding-left: 5px;
+    }
+    #signUp button{
+        height: 45px;
+        width: 93%;  
+    }
+    footer{
+        padding: 4rem 0px;
+        background-color: #f0f0f0;
+    }
+    #footmob{
+        width: 40%;
+        margin: auto;
+    }
+    #social{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        font-size: x-large;
+        margin-bottom: 20px;
+    
+    }
+    #disc{
+        display: block;
+        gap: 2rem;
+        border-right: none;
+    }
+    footer #disc p{
+        border-right: none;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}

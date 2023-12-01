@@ -1,0 +1,687 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7fa;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+header section{
+    display: flex;
+}
+#left h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.3rem;
+    margin:1rem;
+    margin-left: 3rem;
+    color: #08ccca ;
+    margin-left: 2rem;
+}
+#right a button{
+    padding: 0.6rem 1.5rem;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    background-color: #08ccca;
+    border-right: transparent;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+}
+#right img{
+    height: 27px;
+    width: 28px;
+    margin: 33px;
+    margin-right: 80px;  
+    margin-left: 2rem;
+}
+/* ======================================================================================= */
+#main{
+    background-color: black;
+}
+#main img{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    margin-left: 30%;
+}
+/* ========================================================================================= */
+#new{
+    width: 70%;
+    margin: auto;
+}
+#head1 img{
+    height: 34px;
+    width: 34px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+#head1 h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+/* --------------------------- */
+#new #list ul div
+{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+}
+#new #list ul li{
+    margin-right: 1rem;
+}
+#new #list ul li button{
+    background-color: white;
+    border-color: transparent;
+}
+/* ------------------------- */
+#penta{
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+#but1{
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+    height: 92px;
+}
+#but1 h2{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+/* --------------------------------- */
+#clasy{
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+#but2{
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+    height: 92px;
+}
+#but2 h2{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+/* ------------------------------- */
+#kingdm{
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+#but3{
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+    height: 92px;
+}
+#but3 h2{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+/* ------------------------------------- */
+#elast{
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+#but4{
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+    height: 92px;
+}
+#but4 h2{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+/* ---------------------------------------- */
+#ansohp{
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+#but5{
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+    height: 92px;
+}
+#but5 h2{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+/* -------------------------------------- */
+#lijinhuk{
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+#but6{
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+    height: 92px;
+}
+#but6 h2{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+/* -------------------------------------- */
+#sonaun{
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+#but7{
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+    height: 92px;
+}
+#but7 h2{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+/* ----------------------------------------- */
+#refresh{
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    border-radius: 100%;
+    font-size: xx-large;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+#but8{
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+    height: 92px;
+}
+/* ==================================================================================================== */
+#bands{
+    width: 70%;
+    margin: auto;
+}
+#bands #list ul li{
+    list-style-type: none;
+    width: 19%;
+    background-color: white;
+    border-radius: 10px;
+}
+#bands #list ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+#bands #list ul li h1{
+    padding-top: 5px;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#bands #list ul li .big{
+    height: 55%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+}
+#bands #list ul li .smal{
+    border-radius: 100%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+#bands #list ul li #sm1{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 132%;
+    left:19.5%
+}
+#bands #list ul li #sm2{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 132%;
+    left:34%
+}
+#bands #list ul li #sm3{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 132%;
+    left:48.5%
+}
+#bands #list ul li #sm4{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 132%;
+    left:62.3%
+}
+#bands #list ul li #sm5{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 132%;
+    left:76.5%
+}
+/* ---------------------------------------------------- */
+#bands #list ul li #sm6{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 174.5%;
+    left:19.5%
+}
+#bands #list ul li #sm7{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 174.5%;
+    left:34%
+}
+#bands #list ul li #sm8{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 174.5%;
+    left:48.5%
+}
+#bands #list ul li #sm9{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 174.5%;
+    left:62.3%
+}
+#bands #list ul li #sm10{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 174.5%;
+    left:76.5%
+}
+/* ---------------------------------------------------- */
+#bands #list ul li #sm11{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 216%;
+    left:19.5%
+}
+#bands #list ul li #sm12{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 216%;
+    left:34%
+}
+#bands #list ul li #sm13{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 216%;
+    left:48.5%
+}
+#bands #list ul li #sm14{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 216%;
+    left:62.3%
+}
+#bands #list ul li #sm15{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 216%;
+    left:76.5%
+}
+/* ---------------------------------------------------- */
+#bands #list ul li #sm16{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 258%;
+    left:19.5%
+}
+#bands #list ul li #sm17{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 258%;
+    left:34%
+}
+#bands #list ul li #sm18{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 258%;
+    left:48.5%
+}
+#bands #list ul li #sm19{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 258%;
+    left:62.3%
+}
+#bands #list ul li #sm20{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 258%;
+    left:76.5%
+}
+/* -------------------------------------------- */
+#bands #list ul li #sm21{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 300%;
+    left:19.5%
+}
+#bands #list ul li #sm22{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 300%;
+    left:34%
+}
+#bands #list ul li #sm23{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 300%;
+    left:48.5%
+}
+#bands #list ul li #sm24{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 300%;
+    left:62.3%
+}
+#bands #list ul li #sm25{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 300%;
+    left:76.5%
+}
+/* -------------------------------- */
+#bands #list ul li #sm26{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 341%;
+    left:19.5%
+}
+#bands #list ul li #sm27{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 341%;
+    left:34%
+}
+#bands #list ul li #sm28{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 341%;
+    left:48.5%
+}
+#bands #list ul li #sm29{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 341%;
+    left:62.3%
+}
+#bands #list ul li #sm30{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 341%;
+    left:76.5%
+}
+/* --------------------------------- */
+#bands #list ul li #sm31{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 383.5%;
+    left:19.5%
+}
+#bands #list ul li #sm32{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 383.5%;
+    left:34%
+}
+#bands #list ul li #sm33{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 383.5%;
+    left:48.5%
+}
+#bands #list ul li #sm34{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 383.5%;
+    left:62.3%
+}
+#bands #list ul li #sm35{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 383.5%;
+    left:76.5%
+}
+/* ---------------------------------- */
+#bands #list ul li #sm36{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 425.5%;
+    left:19.5%
+}
+#bands #list ul li #sm37{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 425.5%;
+    left:34%
+}
+#bands #list ul li #sm38{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 425.5%;
+    left:48.5%
+}
+#bands #list ul li #sm39{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 425.5%;
+    left:62.3%
+}
+#bands #list ul li #sm40{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 425.5%;
+    left:76.5%
+}
+/* ---------------------------- */
+#bands #list ul li #sm41{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 467%;
+    left:19.5%
+}
+#bands #list ul li #sm42{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 467%;
+    left:34%
+}
+#bands #list ul li #sm43{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 467%;
+    left:48.5%
+}
+#bands #list ul li #sm44{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 467%;
+    left:62.3%
+}
+#bands #list ul li #sm45{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 467%;
+    left:76.5%
+}
+/* ------------------------------- */
+#bands #list ul li #sm46{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 509%;
+    left:19.5%
+}
+#bands #list ul li #sm47{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 509%;
+    left:34%
+}
+#bands #list ul li #sm48{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 509%;
+    left:48.5%
+}
+#bands #list ul li #sm49{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 509%;
+    left:62.3%
+}
+#bands #list ul li #sm50{
+    height: 7%;
+    width: 3.5%;
+    position: absolute;
+    top: 509%;
+    left:76.5%
+}
+/*============================================================================================================ */
+footer{
+    width: 70%;
+    margin: auto;
+}
+footer div ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+    
+}
+footer div ul li a{
+    text-decoration: none;
+    border-right: 1px solid #e9e9ec ;
+    font-size: smaller;
+    color: #8f7588;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#a1{
+    padding-left: 0;
+}
+footer div ul .a2{
+    border-right: none;
+}
+footer div ul li #a3{
+    color: #5595ff ;
+    font-size: 12px;
+    border-left: none;
+}
+#div1{
+    margin-top: 4rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e9e9ec;
+}
+footer .div2 li{
+    display: flex;
+    font-size:12px;
+    gap: 5px;
+    border-right: 1px solid #e9e9ec;
+    padding-right: 5px;
+    color: #aba5ae;
+}
+footer div ul li p{
+    font-weight: 600;
+    margin: 0;
+}
+#last p{
+    font-size: 12px;
+    color: #5b5f64;
+    margin-top: 2rem;
+}
+#privacy{
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+
